@@ -22,6 +22,8 @@ private slots:
 
     void on_checkBox_clicked(bool checked);
 
+    void on_lcdNumber_customContextMenuRequested(const QPoint &pos);
+
 private:
     Ui::MonPremierProgramme *ui;
 };
